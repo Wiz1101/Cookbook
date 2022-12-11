@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="810.0" prefWidth="1315.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+   <children>
+      <ImageView fitHeight="904.0" fitWidth="1135.0" layoutX="412.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="412.0" AnchorPane.rightAnchor="-232.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../img/Background_Big.png" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="26.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox fx:id="Vbox" prefHeight="810.0" prefWidth="416.0" style="-fx-background-color: #e4e1c8#e4e1c8;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="110.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="CookBookLbl" alignment="CENTER" prefHeight="62.0" prefWidth="195.0" style="-fx-background-color: FED700;" styleClass="recipeAnchorStyle" stylesheets="@style.css" text="Cookbook">
+                           <font>
+                              <Font name="System Bold Italic" size="37.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="72.0" prefWidth="388.0">
+                     <VBox.margin>
+                        <Insets left="20.0" right="40.0" />
+                     </VBox.margin>
+                     <children>
+                        <AnchorPane prefHeight="72.0" prefWidth="366.0">
+                           <children>
+                              <Button fx:id="search" layoutX="247.0" layoutY="12.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="58.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Search" AnchorPane.rightAnchor="51.0" />
+                              <Label fx:id="filter" alignment="CENTER" layoutX="310.0" layoutY="12.0" prefHeight="40.0" prefWidth="57.0" style="-fx-background-color: FED700; -fx-border-color: #000000;" text="Filter" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="12.0" />
+                              <Label fx:id="filterBack" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="12.0" prefHeight="40.0" prefWidth="57.0" style="-fx-background-color: FED700; -fx-border-color: #000000;" text="Filter" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="12.0" />
+                              <TextField fx:id="searchField" layoutX="20.0" layoutY="12.0" prefHeight="40.0" prefWidth="222.0" promptText="Type here to search " />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <VBox alignment="CENTER" prefHeight="700.0" prefWidth="316.0" style="-fx-background-color: #ffe0e0#ffe0e0;">
+                     <VBox.margin>
+                        <Insets left="50.0" right="50.0" />
+                     </VBox.margin>
+                     <children>
+                        <AnchorPane fx:id="filterPane" prefHeight="234.0" prefWidth="316.0">
+                           <children>
+                              <VBox prefHeight="296.0" prefWidth="313.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="73.0" prefWidth="316.0" spacing="130.0">
+                                       <children>
+                                          <Label fx:id="tagsLbl" text="Tags:">
+                                             <font>
+                                                <Font size="19.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="5.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label text="Ingredients:">
+                                             <font>
+                                                <Font size="19.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets right="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="12.0" prefWidth="316.0" spacing="20.0">
+                                       <children>
+                                          <TextField fx:id="tagsSearchField" promptText="search" style="-fx-border-color: #000000;">
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="11.0" />
+                                             </font>
+                                          </TextField>
+                                          <Line endX="-100.0" endY="20.500015258789062" startX="-100.0" />
+                                          <TextField fx:id="ingredientsSearchField" promptText="search" style="-fx-border-color: #000000;">
+                                             <HBox.margin>
+                                                <Insets right="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="11.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="187.0" prefWidth="316.0">
+                                       <children>
+                                          <ScrollPane fx:id="scrollTag" prefHeight="200.0" prefWidth="200.0" styleClass="transparent" stylesheets="@style.css">
+                                             <content>
+                                                <GridPane fx:id="gridTag" prefHeight="0.0" prefWidth="31.0">
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                                                   </rowConstraints>
+                                                </GridPane>
+                                             </content>
+                                             <padding>
+                                                <Insets top="5.0" />
+                                             </padding>
+                                          </ScrollPane>
+                                          <ScrollPane fx:id="scrollIngredient" prefHeight="200.0" prefWidth="200.0" styleClass="transparent" stylesheets="@style.css">
+                                             <content>
+                                                <GridPane fx:id="gridIngredient" prefHeight="1.0" prefWidth="24.0">
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                                                   </rowConstraints>
+                                                </GridPane>
+                                             </content>
+                                             <padding>
+                                                <Insets top="5.0" />
+                                             </padding>
+                                          </ScrollPane>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="316.0" spacing="93.0">
+                                       <children>
+                                          <Button fx:id="searchTag" mnemonicParsing="false" prefHeight="44.0" prefWidth="60.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Search">
+                                             <HBox.margin>
+                                                <Insets bottom="8.0" top="8.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Line endX="-100.0" endY="20.500015258789062" startX="-100.0" />
+                                          <Button fx:id="searchIngredient" mnemonicParsing="false" prefHeight="52.0" prefWidth="60.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Search">
+                                             <HBox.margin>
+                                                <Insets bottom="8.0" right="5.0" top="8.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children></AnchorPane>
+                        <AnchorPane fx:id="anchorPaneBelowFilter" prefHeight="502.0" prefWidth="316.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="443.0" prefWidth="316.0">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" prefHeight="41.0" prefWidth="316.0" style="-fx-background-color: #f8d6d6#f8d6d6;">
+                                       <children>
+                                          <Label fx:id="recipeLbl" text="Recipe">
+                                             <font>
+                                                <Font size="24.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fx:id="recipeImg" fitHeight="170.0" fitWidth="261.0" pickOnBounds="true">
+                                                   <image>
+                                                      <Image url="@../recipeImages/beef-curry.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="69.0" prefWidth="316.0">
+                                       <children>
+                                          <Button fx:id="openDetailed" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Open for detailed view">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font></Button>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="69.0" prefWidth="316.0">
+                                       <children>
+                                          <Button fx:id="addToPlan" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: FED700 FED700; -fx-border-color: #000000#000000;" text="Add to Plan">
+                                             <graphic>
+                                                <DatePicker fx:id="datePicker" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: FED703; -fx-border-color: #000000;" />
+                                             </graphic>
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="69.0" prefWidth="316.0">
+                                       <children>
+                                          <Button fx:id="removeFromPlan" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: FED703; -fx-border-color: #000000#000000;" text="Remove From Plan" visible="false">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                        <HBox alignment="CENTER" prefHeight="156.0" prefWidth="316.0">
+                           <children>
+                              <Button fx:id="addNewRecipe" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: FED703; -fx-border-color: #000000#000000;" text="Add a new recipe">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="85.0" prefWidth="899.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <AnchorPane prefHeight="59.0" prefWidth="642.0">
+                           <children>
+                              <Button fx:id="msg" layoutX="567.0" layoutY="7.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="0.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="10.0">
+                                 <graphic>
+                                    <AnchorPane accessibleRole="BUTTON" prefHeight="27.0" prefWidth="49.0">
+                                       <children>
+                                          <ImageView accessibleRole="BUTTON" fitHeight="39.0" fitWidth="49.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <image>
+                                                <Image url="@../img/msg.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Circle fill="#d0dce8" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+                                          <Label fx:id="msgCountLbl" alignment="CENTER" layoutX="-21.0" layoutY="-12.0" prefHeight="29.0" prefWidth="41.0" text="2" />
+                                       </children>
+                                    </AnchorPane>
+                                 </graphic>
+                                 <effect>
+                                    <Blend mode="OVERLAY" opacity="0.83" />
+                                 </effect>
+                              </Button>
+                              <Button fx:id="plan" layoutX="259.0" layoutY="13.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="60.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="PLAN" AnchorPane.topAnchor="12.0">
+                                 <font>
+                                    <Font name="Arial Hebrew" size="10.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </Button>
+                              <Button fx:id="favorites" layoutX="156.0" layoutY="13.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="89.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="FAVORITES" AnchorPane.topAnchor="12.0">
+                                 <font>
+                                    <Font name="Arial Hebrew" size="10.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </Button>
+                              <Button fx:id="home" layoutX="56.0" layoutY="12.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="89.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="HOME" AnchorPane.topAnchor="12.0">
+                                 <font>
+                                    <Font name="Arial Hebrew" size="10.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </Button>
+                              <Circle fill="#d0dce8" layoutX="385.0" layoutY="18.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Label fx:id="cartCount" alignment="CENTER" layoutX="374.0" layoutY="6.0" prefHeight="24.0" prefWidth="21.0" text="2" />
+                              <Button fx:id="cart" layoutX="332.0" layoutY="11.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <ImageView fitHeight="35.0" fitWidth="37.0" pickOnBounds="true">
+                                       <image>
+                                          <Image url="@../img/cart.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="sendMsg" layoutX="497.0" layoutY="14.0" mnemonicParsing="false" opacity="0.81" prefHeight="39.0" prefWidth="47.0" style="-fx-background-color: ebe7e7;" AnchorPane.topAnchor="14.0">
+                                 <graphic>
+                                    <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/paperPlane.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </AnchorPane>
+                        <Label fx:id="userLbl" alignment="CENTER" prefHeight="43.0" prefWidth="116.0" style="-fx-background-color: FED700; -fx-border-color: #000000;" text="User">
+                           <HBox.margin>
+                              <Insets right="3.0" top="12.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="logout" mnemonicParsing="false" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Logout">
+                           <effect>
+                              <Blend />
+                           </effect>
+                           <HBox.margin>
+                              <Insets right="60.0" top="12.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <ScrollPane fx:id="scroll" prefHeight="819.0" prefWidth="740.0" style="-fx-border-color: #000000;">
+                           <content>
+                              <GridPane fx:id="grid" prefHeight="10.0" prefWidth="31.0">
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </content>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </ScrollPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

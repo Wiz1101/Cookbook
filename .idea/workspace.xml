@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ead98ddf-7b72-4e74-9ed8-e31a63b0cc65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/AdminController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/CartController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/CartController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/DetailedViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/IngredientCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/IngredientCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/IngredientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/IngredientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/IngredientItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/IngredientItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/LogInController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/LogInController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/LogInController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/LogInController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/LogInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/LogInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/MsgController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/MsgController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/NewRecipeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/RecipeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/ReplyController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/ReplyController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/ReplyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/SendMsgController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/SendMsgController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/SendMsgController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/SendMsgController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/SignUpController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/SignUpController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/SignUpController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/SignUpController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/SignUpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/SignUpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/TagController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/TagItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/TagItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/Ingredient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/Tag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/models/entities/enums/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/models/entities/enums/Unit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/IngredientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/IngredientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/TagService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/impl/IngredientServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/impl/IngredientServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/impl/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/impl/RecipeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/impl/TagServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/services/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/services/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/AdminListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/AdminListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/DbContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/DbContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/FileIo.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/FileIo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/Hasher.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/Hasher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/NewRecipeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/NewRecipeListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/SceneContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/SceneContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/UserListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/UserListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/common/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/common/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/constants/FailMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/constants/FailMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/constants/SqlQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/constants/SqlQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/constants/SuccessMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/constants/SuccessMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/constants/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/constants/Variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/comment/InvalidCommentLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/comment/InvalidCommentLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidCountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidCountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidDateException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidDateException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidInstanceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidInstanceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/common/InvalidLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/ingredient/InvalidUnitException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/ingredient/InvalidUnitException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/ingredient/TakenIngredientName.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/ingredient/TakenIngredientName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/message/InvalidMessageTextException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/message/InvalidMessageTextException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InexistentRecipeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InexistentRecipeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeDescriptionLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeDescriptionLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeIngredientsCountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeIngredientsCountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeInstructionsLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeInstructionsLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeNameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeNameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeServingSizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeServingSizeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeTagsCountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/recipe/InvalidRecipeTagsCountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/tag/InvalidTagNameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/tag/InvalidTagNameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidEmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidEmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidNicknameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidNicknameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidPasswordComplexityException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidPasswordComplexityException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidPasswordLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidPasswordLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidUserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidUserException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidUserNameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/InvalidUserNameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/TakenEmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/TakenEmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/TakenNicknameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/TakenNicknameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/TakenUsernameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/TakenUsernameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/UserReceiverCannotBeSenderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/main/util/exceptions/user/UserReceiverCannotBeSenderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/test/cookbook/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/test/cookbook/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/CartController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/CartController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/DetailedViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/IngredientCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/IngredientCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/IngredientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/IngredientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/IngredientItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/IngredientItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/LogInController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/LogInController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/LogInController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/LogInController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/LogInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/LogInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/MsgController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/MsgController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/NewRecipeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/RecipeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/ReplyController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/ReplyController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/ReplyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/ReplyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SendMsgController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SendMsgController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SendMsgController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SendMsgController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SignUpController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SignUpController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SignUpController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SignUpController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SignUpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/SignUpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/TagController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/TagItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/TagItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Ingredient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/Tag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/enums/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/models/entities/enums/Unit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/IngredientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/IngredientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/TagService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/IngredientServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/IngredientServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/RecipeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/TagServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/services/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/AdminListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/AdminListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/DbContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/DbContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/FileIo.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/FileIo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/Hasher.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/Hasher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/NewRecipeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/NewRecipeListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/SceneContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/SceneContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/UserListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/UserListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/common/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/common/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/FailMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/FailMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/SqlQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/SqlQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/SuccessMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/SuccessMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/constants/Variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/comment/InvalidCommentLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/comment/InvalidCommentLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidCountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidCountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidDateException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidDateException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidInstanceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidInstanceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/common/InvalidLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/ingredient/InvalidUnitException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/ingredient/InvalidUnitException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/ingredient/TakenIngredientName.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/ingredient/TakenIngredientName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/message/InvalidMessageTextException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/message/InvalidMessageTextException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InexistentRecipeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InexistentRecipeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeDescriptionLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeDescriptionLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeIngredientsCountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeIngredientsCountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeInstructionsLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeInstructionsLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeNameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeNameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeServingSizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeServingSizeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeTagsCountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/recipe/InvalidRecipeTagsCountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/tag/InvalidTagNameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/tag/InvalidTagNameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidEmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidEmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidNicknameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidNicknameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidPasswordComplexityException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidPasswordComplexityException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidPasswordLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidPasswordLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidUserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidUserException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidUserNameLengthException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/InvalidUserNameLengthException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/TakenEmailException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/TakenEmailException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/TakenNicknameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/TakenNicknameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/TakenUsernameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/TakenUsernameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/UserReceiverCannotBeSenderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/util/exceptions/user/UserReceiverCannotBeSenderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/util/common/UserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/util/common/UserListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/util/constants/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/util/constants/Variables.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28ZqayAuQuGPeMYok3lVdZX6oDP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/macbookpro/cookbook",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/resources/fxmlFiles" />
+      <recent name="$PROJECT_DIR$/app/src/main/resources/img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="cookbook" />
+      <option name="VM_PARAMETERS" value="--add-modules javafx.controls,javafx.fxml,javafx.graphics " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="IdeaProjects.cookbook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="IdeaProjects.cookbook" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ead98ddf-7b72-4e74-9ed8-e31a63b0cc65" name="Changes" comment="" />
+      <created>1651434525332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651434525332</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseEntered="#descriptionEntered" onMouseExited="#descriptionExited" onMousePressed="#click" prefHeight="215.0" prefWidth="225.0" style="-fx-background-color: ffa9a9;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RecipeController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="63.0" layoutY="8.0" prefHeight="200.0" prefWidth="205.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="dateLbl" alignment="CENTER" prefHeight="17.0" prefWidth="137.0" styleClass="black" stylesheets="@style.css" text="Label" visible="false">
+               <font>
+                  <Font size="17.0" />
+               </font></Label>
+            <ImageView fx:id="image" fitHeight="143.0" fitWidth="175.0" pickOnBounds="true" styleClass="recipeImageStyle" VBox.vgrow="NEVER">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <HBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="225.0">
+               <children>
+                  <Label fx:id="recipeName" alignment="CENTER" pickOnBounds="false" prefHeight="31.0" prefWidth="150.0" styleClass="black" stylesheets="@style.css" text="recipename">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="heartButton" mnemonicParsing="false" onMousePressed="#favoritesClick" prefHeight="23.0" prefWidth="37.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0">
+                           <children>
+                              <ImageView fx:id="heartImage" fitHeight="30.0" fitWidth="30.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/heartEmpty.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <AnchorPane layoutY="-1.0" prefHeight="186.0" prefWidth="223.0">
+         <children>
+            <TextArea fx:id="recipeDescriptionHover" editable="false" onMouseClicked="#clickDescription" opacity="0.65" prefHeight="194.0" prefWidth="223.0" style="-fx-background-color: #ffffff;" styleClass="text-area" stylesheets="@style.css" visible="false">
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+   <styleClass>
+      <String fx:value="recipeAnchorStyle" />
+      <String fx:value="transparent" />
+   </styleClass>
+</AnchorPane>

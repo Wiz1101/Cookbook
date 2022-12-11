@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LogInController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" HBox.hgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="601.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../img/BackgroundSmall.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="anchorVisible" layoutX="152.0" layoutY="28.0" prefHeight="344.0" prefWidth="282.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="61.0" layoutY="34.0" prefHeight="46.0" prefWidth="157.0" style="-fx-background-color: FED700;" styleClass="recipeAnchorStyle" stylesheets="@style.css" text="CookBook">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="44.0" layoutY="102.0" promptText="username" style="-fx-border-color: #000000;">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="password" layoutX="44.0" layoutY="146.0" prefHeight="33.0" prefWidth="198.5" promptText="password" style="-fx-border-color: #000000;">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </PasswordField>
+                  <Button fx:id="login" layoutX="71.0" layoutY="190.0" mnemonicParsing="false" onKeyPressed="#login" prefHeight="35.0" prefWidth="141.0" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Login">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="55.0" layoutY="259.0" text="Not a user ? ">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="signup" layoutX="162.0" layoutY="257.0" mnemonicParsing="false" style="-fx-background-color: FED700; -fx-border-color: #000000#000000;" text="Sign up!" underline="true" />
+               </children>
+            </AnchorPane>
+            <ImageView fx:id="logo" fitHeight="328.0" fitWidth="329.0" layoutX="137.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="136.0" AnchorPane.rightAnchor="136.0" AnchorPane.topAnchor="32.0">
+               <image>
+                  <Image url="@../img/Logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

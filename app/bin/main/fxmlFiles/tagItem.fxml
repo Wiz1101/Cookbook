@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="36.0" prefWidth="221.0" style="-fx-background-color: ffa9a9;" styleClass="recipeAnchorStyle" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TagItemController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="34.0" prefWidth="219.0" spacing="3.0">
+            <children>
+                <Label fx:id="tagLbl" prefHeight="24.0" prefWidth="133.0" text="starter">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin></Label>
+                <Button mnemonicParsing="false" onMousePressed="#remove" prefHeight="22.0" prefWidth="62.0" style="-fx-background-color: FED700;" styleClass="borderStyle" stylesheets="@style.css" text="Remove">
+                    <font>
+                        <Font name="System Bold" size="10.0" />
+                    </font></Button>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

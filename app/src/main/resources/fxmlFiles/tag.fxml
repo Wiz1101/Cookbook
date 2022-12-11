@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="36.0" prefWidth="150.0" style="-fx-background-color: ffa9a9;" styleClass="recipeAnchorStyle" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TagController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="34.0" prefWidth="140.0" spacing="5.0">
+         <children>
+            <AnchorPane onMousePressed="#tagClick" prefHeight="34.0" prefWidth="25.0">
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+               <children>
+                  <ImageView fx:id="tagButton" fitHeight="24.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <image>
+                        <Image url="@../img/uncheck.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label fx:id="tagLbl" prefHeight="24.0" prefWidth="80.0" styleClass="black" stylesheets="@style.css" text="Vegan" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
