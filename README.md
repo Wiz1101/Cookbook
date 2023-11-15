@@ -13,7 +13,7 @@ run `java Cookbook/src/main/java/main/Main.java`
 
 
 <!-- **Some pics From the App** -->
-<p align="center">
+<p align="left">
   <img src="img/login.gif" />
 </p>
 
@@ -39,6 +39,11 @@ The user can send and receive messages
 ![signUp](img/new_message.png)
 ![signUp](img/inbox.png)
 
+
+## New recipe 
+Finally The user can add new recipes
+
+![signUp](img/add_new_recipe.png)
 
 
 
