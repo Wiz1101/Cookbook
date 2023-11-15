@@ -1,6 +1,0 @@
-App is 'fine'. Some features were still missing. FAQ wasn't done by the last meeting, 
-nor was the weekly dinner lists, so some features were missing.
-Group felt pretty 'good' in terms of chemistry - they worked together 
-fairly well. Their codebase looks pretty well thought out. Gitlab management is acceptable.
-
-Grade: C
