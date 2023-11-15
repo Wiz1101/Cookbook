@@ -3,12 +3,15 @@
 This is a small school project application that uses MySQL and the local server environment to connect to the database. Therefore, in order to run it, you need to install MySQL, unless you already have it. The next step is to set the MySQL port number to "3306," username to "root," and password to "root1234." This is done because the credentials are hardcoded in the app (which is a bad practice, I know, but for this app, it's okay).
 
 ## Quick Start
+
 ```shell 
 git clone https://github.com/Wiz1101/Cookbook.git
 ```
+* **Start mysql server**
+
 
 ```shell 
-run `java Cookbook/src/main/java/main/Main.java`
+java Cookbook/src/main/java/main/Main.java
 ```
 
 
