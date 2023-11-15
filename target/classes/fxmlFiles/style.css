@@ -1,0 +1,61 @@
+.recipeAnchorStyle {
+    -fx-background-radius: 30px;
+
+    -fx-border-radius: 30px;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+.borderStyle {
+    -fx-background-radius: 20px;
+
+    -fx-border-radius: 20px;
+    -fx-border-color: black;
+}
+.recipeImageStyle {
+    -fx-padding: 10;
+    -fx-background-color: firebrick;
+
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.text-area .scroll-bar:vertical:disabled {
+    -fx-opacity: 0;
+}
+.transparent{
+    -fx-background: transparent;
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.black{
+    -fx-text-fill: black;
+}
+.jfx-text-field {
+-fx-prompt-text-fill: #000000;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+
+
+}
+.text-areaForScroll .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
